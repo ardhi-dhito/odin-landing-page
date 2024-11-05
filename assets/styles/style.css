@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    
+    /* Reset margin dan padding bawaan dari browser */
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-container {
+    background-color: #1f2937;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+/* Header Logo */
+.navbar-container .logo p {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.navbar-container .nav-list ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navbar-container .nav-list ul li {
+    list-style-type: none;
+}
+
+.navbar-container .nav-list ul li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 300;
+}
